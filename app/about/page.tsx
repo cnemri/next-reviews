@@ -9,10 +9,10 @@ type Props = {};
 
 const AboutPage = (props: Props) => {
   return (
-    <>
-      <Heading>About Page</Heading>
-      <p>This is a random paragraph</p>
-    </>
+    <div className="flex flex-col items-center space-y-4">
+      <Heading>About</Heading>
+      <p>A website created to learn Next.js</p>
+    </div>
   );
 };
 
